@@ -5,21 +5,5 @@
 {% endblock %}
 
 {% block content %}
-    <div class="card mb-3">
-                <h4 class="card-title">
-                    {{post.title}}
-                </h4>
-                <img src="https://www.minecraft.net/content/dam/games/minecraft/key-art/Xbox_Minecraft_WildUpdate_Main_.Net_1170x500.jpg" class="card-img-top" alt="minecraft">
-                <div class="card-body">
-                    <p class="card-text">
-                        {{post.body}}
-                    </p>
-                    <p class="card-text">
-                        <a href="#">Online</a>
-                        <a href="#">Cooperative</a>
-                        <a href="#">Indie</a>
-                    </p>
-                    <p>{{post.date_pub}}</p>
-                </div>
-            </div>
+    {% include "blog/includes/card_detail.html" %}
 {% endblock %}

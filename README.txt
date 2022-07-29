@@ -5,3 +5,4 @@ cd project_1
 python manage.py startapp blog
 python manage.py migrate
 python manage.py runserver
+pip install pillow
