@@ -56,7 +56,7 @@ eggs/
 .eggs/
 lib/
 lib64/
-parts/
+project_1/blog/templates/blog/includes/part_post/
 sdist/
 var/
 wheels/
